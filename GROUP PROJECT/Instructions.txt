@@ -1,0 +1,22 @@
+****************************************************************************************************************************
+//just run all these command to make sure that all the requirements are satisfied:
+
+pip install flask
+pip install flask_basicauth
+pip install imutils
+pip install numpy
+
+**************************************************************************************************************************
+//To make this program run automatically as soon as raspberry is turned on. Following this make your program run everytime you boot your raspberry or open a new terminal
+
+sudo nano /home/pi/.bashrc
+
+//In this file add these 2 lines at the end:
+
+cd smart-security-camera
+python main.py
+
+//press ctrl+x -> y -> Enter
+
+// As this will run everytime you open a terminal so to close it press ctrl+c
+**************************************************************************************************************************
